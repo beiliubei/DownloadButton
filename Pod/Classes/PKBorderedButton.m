@@ -23,7 +23,7 @@
 
 - (void)tintColorDidChange {
     [super tintColorDidChange];
-    [self configureDefaultAppearance];
+//    [self configureDefaultAppearance];
 }
 
 - (void)cleanDefaultAppearance {
