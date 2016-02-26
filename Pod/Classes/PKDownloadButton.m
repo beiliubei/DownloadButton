@@ -79,6 +79,9 @@ static PKDownloadButton *CommonInit(PKDownloadButton *self) {
         case kPKDownloadButtonState_Downloaded:
             self.downloadedButton.hidden = NO;
             break;
+        case kPKDownloadButtonState_Pause:
+            self.startDownloadButton.hidden = NO;
+            break;
         default:
             NSAssert(NO, @"unsupported state");
             break;

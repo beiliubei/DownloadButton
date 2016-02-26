@@ -22,12 +22,12 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		95E2A0A07B08B42217597EA8 /* Pods_DownloadButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C309993895A4717E99C5A7E0 /* Pods_DownloadButton_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		95E2A0A07B08B42217597EA8 /* Pods_DownloadButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C309993895A4717E99C5A7E0 /* Pods_DownloadButton_Tests.framework */; };
 		E995E4DA1B1CD49100016C7D /* PKCustomAppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E995E4D31B1CD49100016C7D /* PKCustomAppearanceViewController.m */; };
 		E995E4DB1B1CD49100016C7D /* PKDefaultAppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E995E4D51B1CD49100016C7D /* PKDefaultAppearanceViewController.m */; };
 		E995E4DC1B1CD49100016C7D /* PKDownloaderSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = E995E4D71B1CD49100016C7D /* PKDownloaderSimulator.m */; };
 		E995E4DD1B1CD49100016C7D /* PKDownloadPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E995E4D91B1CD49100016C7D /* PKDownloadPictureViewController.m */; };
-		F418D99A2550875B457FD2E2 /* Pods_DownloadButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE0507B5F71A82458F56CF /* Pods_DownloadButton_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F418D99A2550875B457FD2E2 /* Pods_DownloadButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBDE0507B5F71A82458F56CF /* Pods_DownloadButton_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

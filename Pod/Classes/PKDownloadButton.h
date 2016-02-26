@@ -17,7 +17,8 @@ typedef NS_ENUM(NSUInteger, PKDownloadButtonState) {
     kPKDownloadButtonState_StartDownload,
     kPKDownloadButtonState_Pending,
     kPKDownloadButtonState_Downloading,
-    kPKDownloadButtonState_Downloaded
+    kPKDownloadButtonState_Downloaded,
+    kPKDownloadButtonState_Pause
 };
 
 @class PKDownloadButton;

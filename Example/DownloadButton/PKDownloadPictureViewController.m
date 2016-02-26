@@ -36,11 +36,15 @@
             break;
         case kPKDownloadButtonState_Downloading:
             [self.downloaderSimulator cancelDownload];
-            self.downloadButton.state = kPKDownloadButtonState_StartDownload;
+            self.downloadButton.state = kPKDownloadButtonState_Pause;
             break;
         case kPKDownloadButtonState_Downloaded:
             self.downloadButton.state = kPKDownloadButtonState_StartDownload;
             self.imageView.hidden = YES;
+            break;
+        case kPKDownloadButtonState_Pause:
+            self.downloadButton.state = kPKDownloadButtonState_Pending;
+            [self.pendingSimulator startDownload];
             break;
         default:
             NSAssert(NO, @"unsupported state");
