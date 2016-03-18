@@ -101,8 +101,8 @@ static PKDownloadButton *CommonInit(PKDownloadButton *self) {
 - (void)tintColorDidChange {
 	[super tintColorDidChange];
 	
-	[self updateButton:self.startDownloadButton title:@"DOWNLOAD"];
-	[self updateButton:self.downloadedButton title:@"REMOVE"];
+	[self updateButton:self.startDownloadButton title:@""];
+	[self updateButton:self.downloadedButton title:@""];
 }
 
 
@@ -121,7 +121,7 @@ static PKDownloadButton *CommonInit(PKDownloadButton *self) {
     PKBorderedButton *startDownloadButton = [PKBorderedButton buttonWithType:UIButtonTypeCustom];
     [startDownloadButton configureDefaultAppearance];
     
-	[self updateButton:startDownloadButton title:@"DOWNLOAD"];
+	[self updateButton:startDownloadButton title:@""];
 	
     [startDownloadButton addTarget:self
                             action:@selector(currentButtonTapped:)
@@ -140,7 +140,7 @@ static PKDownloadButton *CommonInit(PKDownloadButton *self) {
     PKBorderedButton *downloadedButton = [PKBorderedButton buttonWithType:UIButtonTypeCustom];
     [downloadedButton configureDefaultAppearance];
 
-	[self updateButton:downloadedButton title:@"REMOVE"];
+	[self updateButton:downloadedButton title:@""];
     
     [downloadedButton addTarget:self
                          action:@selector(currentButtonTapped:)
